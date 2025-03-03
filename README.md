@@ -30,8 +30,8 @@ Perfect for creative projects, content creation, brainstorming visual ideas, or 
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/telegram-ai-image-bot.git
-   cd telegram-ai-image-bot
+   git clone https://github.com/jj611a/telegram-AI-pic-generator.git
+   cd telegram-AI-pic-generator
    ```
 
 2. Set up a virtual environment (recommended):
