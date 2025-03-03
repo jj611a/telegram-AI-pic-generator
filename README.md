@@ -81,6 +81,40 @@ Perfect for creative projects, content creation, brainstorming visual ideas, or 
    python bot_pic.py
    ```
 
+### Troubleshooting
+
+#### PowerShell Execution Policy Error
+
+If you encounter an error like this when activating the virtual environment in PowerShell:
+
+```
+File C:\path\to\venv\Scripts\Activate.ps1 cannot be loaded because running scripts is disabled on this system.
+```
+
+You have several options:
+
+1. **Temporarily bypass the policy for the current session:**
+   ```powershell
+   Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+   ```
+   Then try activating the virtual environment again.
+
+2. **Change the execution policy permanently (requires admin rights):**
+   ```powershell
+   Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+   ```
+
+3. **Use Command Prompt instead of PowerShell:**
+   ```cmd
+   venv\Scripts\activate.bat
+   ```
+
+4. **Use PowerShell with the bypass parameter:**
+   ```powershell
+   powershell -ExecutionPolicy Bypass -File .\venv\Scripts\Activate.ps1
+   ```
+
+
 ## 📝 Usage
 
 ### User Commands
