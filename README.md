@@ -107,16 +107,6 @@ The `config.json` file contains all the bot settings:
 
 The bot includes robust error handling with automatic reporting to administrators and self-recovery mechanisms to ensure continuous operation.
 
-## 📋 License
-
-[MIT License](LICENSE)
-
-## 🙏 Acknowledgements
-
-- [pyTelegramBotAPI](https://github.com/eternnoir/pyTelegramBotAPI) for the Telegram bot framework
-- [deep-translator](https://github.com/nidhaloff/deep-translator) for translation capabilities
-- [Pillow](https://python-pillow.org/) for image processing
-
 ---
 
 Created with ❤️ by [Zero] 
